@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color: black;
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Righteous', cursive; */
+    /* font-family: 'Recursive', sans-serif; */
+    font-weight: bolder;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    /* font-size: 50px; */
+}
+.nav-link:hover{
+    color: rgb(19, 19, 19);
+}
+
+/* .main{
+    background-image: url();
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+} */
+
+/* signin page */
+.body_main{
+height: 100%;
+}
+
+.form-login{
+    margin: auto;
+    background-color: aqua;
+    padding: 10px;
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+
+}
+.catagory{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Righteous', cursive;;
+}
