@@ -56,3 +56,11 @@ height: 100%;
     font-weight: bolder;
     font-family: 'Righteous', cursive;;
 }
+
+.card:hover{
+    background-color: green;
+    color: white;
+    box-shadow: 0 8px 50px rgb(0,0,0,0.2);
+    transform: scale(1.1);
+}
+
