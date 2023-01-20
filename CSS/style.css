@@ -5,6 +5,8 @@
 
 }
 
+
+/* index page */
 .navbar-brand{
     font-size: 30px;
     color: black;
@@ -63,4 +65,9 @@ height: 100%;
     box-shadow: 0 8px 50px rgb(0,0,0,0.2);
     transform: scale(1.1);
 }
+
+
+
+
+
 
