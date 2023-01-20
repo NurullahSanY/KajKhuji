@@ -129,24 +129,10 @@
         <div class="card">
           <div class="card-body m-auto">
             <!-- <img src="./photo/plug (2).png" class=" card-img-center" alt=""> -->
-            <i class="fa-solid fa-wheat-alt fa-5x"></i>
-            <!-- <i class="fa-regular fa-user-cowboy"></i> -->
-          </div>
-          <div class=" card-text text-center">
-            <h4>Farmer</h4>
-            <p>Empty postion</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-body m-auto">
-            <!-- <img src="./photo/plug (2).png" class=" card-img-center" alt=""> -->
             <i class="fa-solid fa-person-digging fa-5x"></i>
           </div>
           <div class=" card-text text-center">
-            <h4>Worker</h4>
+            <h4>Farmer</h4>
             <p>Empty postion</p>
           </div>
         </div>
