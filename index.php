@@ -51,7 +51,7 @@
         </ul>
         <form class="d-flex">
           <a class="btn btn-success me-2" href="signin.php" >Signin</a>
-          <a class="btn btn-success" href="signup.php">Signp</a>
+          <a class="btn btn-success" href="signup.php">Signup</a>
         </form>
       </div>
     </div>
