@@ -66,13 +66,13 @@ height: 100%;
     transform: scale(1.1);
 }
 /* about us styles  starts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
-*{
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap'); */
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
+} */
 
 .section{
     width: 100%;

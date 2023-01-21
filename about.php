@@ -21,7 +21,7 @@
             </div>
             <div class="content">
                 <h3>Our website is a simple imformative website built to use manpower in an effective way.</h3>
-                <p> Our website consists of category of workers and their profiles. In their profile, their respective fields are elaborated. User can hire from our website by getting their contact informations. Our website simply provides a gateway to finding suitable workers for the user.
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi possimus repellat dolorum natus architecto enim eaque dolor. Commodi eius libero dolorem obcaecati assumenda rem magnam omnis, tempore suscipit sapiente, culpa praesentium vitae qui non consequatur? Eligendi sapiente obcaecati, nihil, esse cumque neque quod quae animi mollitia, doloremque provident itaque omnis. Our website consists of category of workers and their profiles. In their profile, their respective fields are elaborated. User can hire from our website by getting their contact informations. Our website simply provides a gateway to finding suitable workers for the user.
                 </p>
                 <p>
                     <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -31,7 +31,7 @@
                   </p>
                   <div class="collapse" id="collapseExample">
                     <div class="card card-body">
-                      Our website will contain login/signup system. User can login to our system then he/she can view the profiles of different types of workers.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste culpa unde tempora enim ad vel atque quia quo aperiam vero modi, ex totam, dolorem dicta voluptatum tenetur! Iste itaque maxime voluptatibus quidem, dolore sapiente eum? Nesciunt assumenda, earum quia laboriosam nam velit illo libero consectetur quasi, enim, soluta saepe! Our website will contain login/signup system. User can login to our system then he/she can view the profiles of different types of workers.
                     </div>
                   </div>
             </div>
