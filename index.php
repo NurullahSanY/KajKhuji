@@ -13,9 +13,10 @@
 
 
 <body>
+  <!-- Front end Work of Nurullah, don't rwrite it -->
   <nav class="navbar navbar-expand-lg navbar-light p-3">
     <div class="container">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.php">
         <!-- <i class="fa-brands fa-searchengin"></i> -->
         Kaj Khuji
       </a>
@@ -25,17 +26,17 @@
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav ms-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html" style="color: black;">Home</a>
+            <a class="nav-link " aria-current="page" href="index.php" style="color: black;">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html" style="color: black;">About</a>
+            <a class="nav-link" href="about.php" style="color: black;">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="vision.html" style="color: black;">Vision</a>
+            <a class="nav-link" href="vision.php" style="color: black;">Vision</a>
           </li>
           <li class="nav-item">
           
-            <a class="nav-link" href="donation.html" style="color: black;">Donation</a>
+            <a class="nav-link" href="donation.php" style="color: black;">Donation</a>
           </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,8 +51,8 @@
           </li> -->
         </ul>
         <form class="d-flex">
-          <a class="btn btn-success me-2" href="signup.html" >Signin</a>
-          <a class="btn btn-success" href="signin.html">Signp</a>
+          <a class="btn btn-success me-2" href="signup.php" >Signin</a>
+          <a class="btn btn-success" href="signin.php">Signp</a>
         </form>
       </div>
     </div>
