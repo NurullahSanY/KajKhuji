@@ -8,6 +8,7 @@
 </head>
 <body>
     <p>al amin about YHUYHUHU</p>
+                  <div class="collapse" id="collapseExample">
     
 </body>
 </html>
