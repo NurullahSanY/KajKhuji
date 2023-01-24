@@ -102,7 +102,7 @@
   <div class="container">
     <div class="row gy-4">
       <div class="col-md-3">
-        <div class="card">
+        <div class="card card_hover">
           <div class="card-body m-auto">
             <!-- <img src="./photo/plug (2).png" class=" card-img-center" alt=""> -->
             <i class="fa-solid fa-plug fa-5x "></i>
@@ -115,7 +115,7 @@
       </div>
       
       <div class="col-md-3">
-        <div class="card">
+        <div class="card card_hover">
           <div class="card-body m-auto">
             <!-- <img src="./photo/plug (2).png" class=" card-img-center" alt=""> -->
             <i class="fa-solid fa-fish-fins fa-5x"></i>          </div>
@@ -127,7 +127,7 @@
       </div>
 
       <div class="col-md-3">
-        <div class="card">
+        <div class="card card_hover">
           <div class="card-body m-auto">
             <!-- <img src="./photo/plug (2).png" class=" card-img-center" alt=""> -->
             <i class="fa-solid fa-person-digging fa-5x"></i>
@@ -140,7 +140,7 @@
       </div>
 
       <div class="col-md-3">
-        <div class="card">
+        <div class="card card_hover">
           <div class="card-body m-auto">
             <!-- <img src="./photo/plug (2).png" class=" card-img-center" alt=""> -->
             <i class="fa-solid fa-hammer fa-5x"></i> 
@@ -157,9 +157,34 @@
 
 
   <!-- Contact us page -->
+
   <div class="text-center m-auto mt-4 p-2">
     <P class="catagory">Contact Us</P>
   </div>
+
+
+  <section class="main-contact-section py-5">
+    <div class="container">
+      <div class="row ju">
+        <div class="col-lg-8">
+          <div class="card card-body border-0 shdaw">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="card card-body card-contact bg-theme">
+                  <h1>hi</h1>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
 
 
 
