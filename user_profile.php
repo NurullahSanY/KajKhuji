@@ -72,16 +72,20 @@
         </div>
         <div class="form-row">
             <div class="form-group col-md-2">
-            <label for="inputCity">House no</label>
-            <input type="text" class="form-control" id="village">
+            <label for="houseno">House no</label>
+            <input type="text" class="form-control" id="houseno">
             </div>
             <div class="form-group col-md-2">
-            <label for="upazila">Word Number</label>
-            <input type="text" class="form-control" id="upazila">
+            <label for="wordno">Word Number</label>
+            <input type="text" class="form-control" id="wordno">
             </div>
             <div class="form-group col-md-2">
-            <label for="zila">City Corporation</label>
-            <input type="text" class="form-control" id="zila">
+            <label for="wordname">Word Name</label>
+            <input type="text" class="form-control" id="wordname">
+            </div>
+            <div class="form-group col-md-2">
+            <label for="citycorp">City Corporation</label>
+            <input type="text" class="form-control" id="citycorp">
             </div>
             <div class="form-group col-md-2">
             <label for="division">Division</label>
