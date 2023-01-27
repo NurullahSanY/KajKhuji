@@ -12,6 +12,59 @@
     <title>about</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light p-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.php">
+        <!-- <i class="fa-brands fa-searchengin"></i> -->
+        Kaj Khuji
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.php" style="color: black;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.php" style="color: black;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vision.php" style="color: black;">Vision</a>
+          </li>
+          <li class="nav-item">
+          
+            <a class="nav-link" href="donation.php" style="color: black;">Donation</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Employee
+            </a>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="#">Farmer</a></li>
+              <li><a class="dropdown-item" href="#">Electrician</a></li>
+              <li><a class="dropdown-item" href="#">Fisherman</a></li>
+              <li><a class="dropdown-item" href="#">Carpenter</a></li>
+            </ul>
+          </li> -->
+        </ul>
+        <form class="d-flex">
+          <a class="btn btn-success me-2" href="signin.php" >Signin</a>
+          <!-- <a class="btn btn-success" href="signup.php">Signup</a> -->
+          <div class="dropdown">
+  <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+   SignUp
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item " href="">Village People</a></li>
+    <li><a class="dropdown-item" href="">City People</a></li>
+  </ul>
+</div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
     
 <div class="section">
       <div class="container">

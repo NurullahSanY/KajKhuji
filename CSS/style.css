@@ -181,15 +181,11 @@ padding: top 100px;
     }
 }
 /* about us style ends */
-.bg-theme{
-    background-color: red;
-}
-.card-contact{
-margin-left: -130px;
-}
-.card-contact h1{
-    color:#fff ;
+
+p a{
+    text-decoration: none;
 }
 
+/* Contact Us */
 
-    
+

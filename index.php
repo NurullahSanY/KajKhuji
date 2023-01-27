@@ -7,6 +7,7 @@
     <title>index</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Recursive:wght@1000&family=Righteous&family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./CSS/style.css">
+  <!-- <link rel="stylesheet" href="./CSS/style.css"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
@@ -168,32 +169,101 @@
   <!-- Contact us page -->
 
   <div class="text-center m-auto mt-4 p-2">
-    <P class="catagory">Contact Us</P>
+    <!-- <P class="catagory">Contact Us</P> -->
   </div>
+  
+  
+<footer class=" bg-dark text-white pt-5 pb-4">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-wight-bold text-warning" >KajKhuji</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime harum reprehenderit esse beatae consequatur, molestias magni numquam accusamus impedit quos.</p>
+      </div>
 
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-wight-bold text-warning" >VISIT</h5>
+        <p>
+            <a href="" class="text-white"> Media</a>
+        </p>
+        <p>
+            <a href="" class="text-white"> Gallery</a>
+        </p>
+        <p>
+            <a href="" class="text-white"> Vedio</a>
+        </p>
 
-  <section class="main-contact-section py-5">
-    <div class="container">
-      <div class="row ju">
-        <div class="col-lg-8">
-          <div class="card card-body border-0 shdaw">
-            <div class="row">
-              <div class="col-lg-5">
-                <div class="card card-body card-contact bg-theme">
-                  <h1>hi</h1>
+      </div>
 
-                </div>
-              </div>
-            </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-wight-bold text-warning" >HELP</h5>
+        <p>
+            <a href="" class="text-white"> Contact us</a>
+        </p>
+        <p>
+            <a href="about.php" class="text-white"> About Us</a>
+        </p>
+        <p>
+            <a href="" class="text-white"> Campaign</a>
+        </p>
+
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-wight-bold text-warning" >CONTACT</h5>
+        <p>
+            <i class="fas fa-home mr-3"></i> Dhaka, Bangladesh
+        </p>
+        <p>
+        <i class="fas fa-envelope mr-3"></i> kajkhuji@gmail.com
+        </p>
+        <p>
+        <i class="fas fa-phone mr-3"></i> 8801780173330000
+        </p>
+      </div>
+
+      <hr class="mb-1">
+      <div class="row align-items-center mt-3">
+        <div class="col-md-7 col-lg-8">
+          <p>Copyright @2023 All rights reserved by.
+            <a href="index.php"><strong class="text-warning">KajKhuji</strong></a>
+          </p>
+        </div>
+
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> <i class="fa-brands fa-square-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-square-youtube"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> <i class="fa-brands fa-square-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> <i class="fa-brands fa-square-instagram"></i></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> <i class="fa-brands fa-linkedin"></i></i></i></a>
+              </li>
+            </ul>
 
           </div>
 
         </div>
 
       </div>
+
     </div>
 
-  </section>
+  </div>
+
+</footer>
+
+
 
 
 
