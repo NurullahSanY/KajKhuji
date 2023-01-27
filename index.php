@@ -32,9 +32,7 @@
           <li class="nav-item">
             <a class="nav-link" href="about.php" style="color: black;">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="vision.php" style="color: black;">Vision</a>
-          </li>
+         
           <li class="nav-item">
           
             <a class="nav-link" href="donation.php" style="color: black;">Donation</a>
