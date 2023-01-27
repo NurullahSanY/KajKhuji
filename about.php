@@ -29,24 +29,12 @@
           <li class="nav-item">
             <a class="nav-link" href="about.php" style="color: black;">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="vision.php" style="color: black;">Vision</a>
-          </li>
+          
           <li class="nav-item">
           
             <a class="nav-link" href="donation.php" style="color: black;">Donation</a>
           </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Employee
-            </a>
-            <ul class="dropdown-menu" >
-              <li><a class="dropdown-item" href="#">Farmer</a></li>
-              <li><a class="dropdown-item" href="#">Electrician</a></li>
-              <li><a class="dropdown-item" href="#">Fisherman</a></li>
-              <li><a class="dropdown-item" href="#">Carpenter</a></li>
-            </ul>
-          </li> -->
+          
         </ul>
         <form class="d-flex">
           <a class="btn btn-success me-2" href="signin.php" >Signin</a>
@@ -65,7 +53,6 @@
     </div>
   </nav>
 
-
     <!-- Bannar -->
     <div class="bannar_donation">
     <div class="bannar_text">
@@ -74,6 +61,105 @@
       <h6>Home/ABOUTUS</h6>
     </div>
   </div>
+
+
+  <p>Write here new code</p>
+
+
+
+
+
+
+  <!-- footer -->
+  <footer class=" bg-dark text-white pt-5 pb-4">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-wight-bold text-warning" >KajKhuji</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime harum reprehenderit esse beatae consequatur, molestias magni numquam accusamus impedit quos.</p>
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-wight-bold text-warning" >VISIT</h5>
+        <p>
+            <a href="" class="text-white"> Media</a>
+        </p>
+        <p>
+            <a href="" class="text-white"> Gallery</a>
+        </p>
+        <p>
+            <a href="" class="text-white"> Vedio</a>
+        </p>
+
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-wight-bold text-warning" >HELP</h5>
+        <p>
+            <a href="" class="text-white"> Contact us</a>
+        </p>
+        <p>
+            <a href="about.php" class="text-white"> About Us</a>
+        </p>
+        <p>
+            <a href="" class="text-white"> Campaign</a>
+        </p>
+
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-wight-bold text-warning" >CONTACT</h5>
+        <p>
+            <i class="fas fa-home mr-3"></i> Dhaka, Bangladesh
+        </p>
+        <p>
+        <i class="fas fa-envelope mr-3"></i> kajkhuji@gmail.com
+        </p>
+        <p>
+        <i class="fas fa-phone mr-3"></i> 8801780173330000
+        </p>
+      </div>
+
+      <hr class="mb-1">
+      <div class="row align-items-center mt-3">
+        <div class="col-md-7 col-lg-8">
+          <p>Copyright @2023 All rights reserved by.
+            <a href="index.php"><strong class="text-warning">KajKhuji</strong></a>
+          </p>
+        </div>
+
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> <i class="fa-brands fa-square-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-square-youtube"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> <i class="fa-brands fa-square-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> <i class="fa-brands fa-square-instagram"></i></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> <i class="fa-brands fa-linkedin"></i></i></i></a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
 
   
     
