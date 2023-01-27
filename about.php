@@ -69,9 +69,9 @@
     <!-- Bannar -->
     <div class="bannar_donation">
     <div class="bannar_text">
-      Donation  
+      About Us
       <hr class="horizontal_line " >
-      <h6>Home/ABOUT</h6>
+      <h6>Home/ABOUTUS</h6>
     </div>
   </div>
 
