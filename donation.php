@@ -36,17 +36,7 @@
           
             <a class="nav-link" href="donation.php" style="color: black;">Donation</a>
           </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Employee
-            </a>
-            <ul class="dropdown-menu" >
-              <li><a class="dropdown-item" href="#">Farmer</a></li>
-              <li><a class="dropdown-item" href="#">Electrician</a></li>
-              <li><a class="dropdown-item" href="#">Fisherman</a></li>
-              <li><a class="dropdown-item" href="#">Carpenter</a></li>
-            </ul>
-          </li> -->
+         
         </ul>
         <form class="d-flex">
           <a class="btn btn-success me-2" href="signin.php" >Signin</a>
@@ -64,7 +54,17 @@
       </div>
     </div>
   </nav>
-    
+
+  <!-- Bannar -->
+  <div class="bannar_donation">
+    <div class="bannar_text">
+      Donation  
+      <hr class="horizontal_line " >
+      <h6>Home/Donation</h6>
+    </div>
+  </div>
+
+
 
 
 
