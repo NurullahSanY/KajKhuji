@@ -11,7 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
-<body>
+<body >
 <nav class="navbar navbar-expand-lg navbar-light p-3">
     <div class="container">
       <a class="navbar-brand" href="index.php">
@@ -61,11 +61,63 @@
     </div>
   </div>
 
+  <div class="text-center m-auto m-2 p-1">
+    <P class="catagory"><Datag>DONATE HERE</Datag></P>
+  </div>
+
+  <!-- Bannar end -->
 
 
-  <p>Write here new code</p>
+  <!-- payment Methods -->
+  <div class="payment_body">
+    <div class="payment_form">
+      <div class="text-center p-2 text-white mb-3" style="background-color:#D91516;">
+        <h2>PAYMENT INFORMATION</h2>
+      </div>
+
+      <form action="">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id=""><i class="fa-solid fa-user"></i></span>
+          <input type="text" class="form-control" placeholder="Full Name" aria-label="" aria-describedby="">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id=""><i class="fa-solid fa-envelope"></i></span>
+          <input type="email" class="form-control" placeholder="Email" aria-label="" aria-describedby="">
+        
+          <span class="input-group-text" id=""><i class="fa-solid fa-phone"></i></span>
+          <input type="tel" class="form-control" placeholder="Phone Number" aria-label="" aria-describedby="">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id=""><i class="fa-regular fa-calendar-days"></i></span>
+          <input type="text" class="form-control" onfocus="(this.type='date')" placeholder="Payment Date"  aria-label="" aria-describedby="">
+        </div>
+        <!-- <div class="input-group mb-3">
+          <span class="input-group-text" id=""><i class="fa-regular fa-calendar-days"></i></span>
+          <input type="date" class="form-control"  placeholder="Payment Date"  aria-label="" aria-describedby="">
+        </div> -->
+
+        <div class="btn-group col-12 mb-3" role="" aria-label="">
+          <button type="button" class="btn btn-outline-danger col-6">Debit/Cradit Card</button>
+          <button type="button" class="btn btn-outline-danger col-6">Mobile Banking</button>
+        </div>
+
+        <div class="input-group mb-3 " role="" aria-label="">
+         <span class="input-group-text" id=""><i class="fa-solid fa-message"></i></span>
+          <input type="tel" class="form-control" placeholder="Transaction ID" aria-label="" aria-describedby="">
+        </div>
+
+        <div class="btn-group col-12 mb-3" role="" aria-label="">
+          <button type="button" class="btn btn-outline-danger ">Submit</button>
+        </div>
+
+      </form>
+    </div>  
+  </div>
 
 
+  <!-- payment Methods end -->
 
 
   <!-- Footer -->
@@ -159,9 +211,7 @@
 
 </footer>
 
-
-
-
+<!-- Footer End -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
