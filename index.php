@@ -44,8 +44,8 @@
    SignUp
   </a>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item " href="">Village People</a></li>
-    <li><a class="dropdown-item" href="">City People</a></li>
+    <li><a class="dropdown-item " href="vill.php">Village People</a></li>
+    <li><a class="dropdown-item" href="city.php">City People</a></li>
   </ul>
 </div>
         </form>
