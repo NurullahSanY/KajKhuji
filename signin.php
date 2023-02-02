@@ -18,7 +18,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+    <div class="bg-theme">
+        <p>HOise ki?</p>
+    </div>
 <div class="container">
+  
+
   <div class="col-lg-4">
     <h2>Signin Form</h2>
     <form action="" name="form" method="post">
@@ -35,7 +41,7 @@
         <label for="pwd">Retype password:</label>
         <input type="password" class="form-control" required id="retype_password" placeholder="Enter password" name="retype_password"> 
       </div>
-      <!-- password -->
+    
       <button type="signin" name="signin" class="btn btn-default">Signin</button>
     </form>
   </div>

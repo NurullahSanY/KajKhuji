@@ -52,7 +52,6 @@
         </ul>
         <form class="d-flex">
         <a class="btn btn-success me-2" href="signin.php" >Signin</a>
-          <!-- <a class="btn btn-success" href="signup.php">Signup</a> -->
           <div class="dropdown">
   <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
    SignUp
@@ -142,9 +141,11 @@
             <!-- <img src="./photo/plug (2).png" class=" card-img-center" alt=""> -->
             <i class="fa-solid fa-person-digging fa-5x"></i>
           </div>
+
           <div class=" card-text text-center">
             <h4>Farmer</h4>
             <p>Empty postion</p>
+            <a href="vill.php" class="stretched-link"></a>
           </div>
         </div>
       </div>

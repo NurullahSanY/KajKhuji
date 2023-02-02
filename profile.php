@@ -77,8 +77,8 @@
 
   } 
   else {
-    echo "Error!";
-    //header("location:index.php");
+   
+    header("location:signup.php");
     exit;
   }
 
