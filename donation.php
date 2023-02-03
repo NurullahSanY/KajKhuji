@@ -1,3 +1,19 @@
+<?php
+session_start();
+include 'function.php';
+include "connection.php";
+if(isset($_POST['submit']))
+{
+  $in = "INSERT into donation values('$_POST[name]', '$_POST[email]', '$_POST[phone]','$_POST[transway]', '$_POST[transid]', '$_POST[date]')";
+  $q = $link->query($in);
+  header("location:paymentsuccess.php");
+  exit;
+}
+else
+{
+  
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,52 +21,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>donation</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Recursive:wght@1000&family=Righteous&family=Rubik&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./CSS/style.css">
-  <!-- <link rel="stylesheet" href="./CSS/style.css"> -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <?php require'head.php' ?>
 </head>
-<body >
-<nav class="navbar navbar-expand-lg navbar-light p-3">
-    <div class="container">
-      <a class="navbar-brand" href="index.php">
-        <!-- <i class="fa-brands fa-searchengin"></i> -->
-        Kaj Khuji
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav ms-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.php" style="color: black;">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php" style="color: black;">About</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="donation.php" style="color: black;">Donation</a>
-          </li>
-         
-        </ul>
-        <form class="d-flex">
-          <a class="btn btn-success me-2" href="signin.php" >Signin</a>
-          <!-- <a class="btn btn-success" href="signup.php">Signup</a> -->
-          <div class="dropdown">
-  <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-   SignUp
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item " href="">Village People</a></li>
-    <li><a class="dropdown-item" href="">City People</a></li>
-  </ul>
-</div>
-        </form>
-      </div>
-    </div>
-  </nav>
+<body class="b-ground">
 
   <!-- Bannar -->
   <div class="bannar_donation">
@@ -67,7 +40,6 @@
 
   <!-- Bannar end -->
 
-
   <!-- payment Methods -->
   <div class="payment_body">
     <div class="payment_form">
@@ -75,42 +47,43 @@
         <h2>PAYMENT INFORMATION</h2>
       </div>
 
-      <form action="">
+      <form action="" name="form" method="POST">
         <div class="input-group mb-3">
           <span class="input-group-text" id=""><i class="fa-solid fa-user"></i></span>
-          <input type="text" class="form-control" placeholder="Full Name" aria-label="" aria-describedby="">
+          <input type="text" class="form-control" name="name" id="name" placeholder="Full Name">
         </div>
 
         <div class="input-group mb-3">
           <span class="input-group-text" id=""><i class="fa-solid fa-envelope"></i></span>
-          <input type="email" class="form-control" placeholder="Email" aria-label="" aria-describedby="">
+          <input type="email" class="form-control" placeholder="Email" name="email" id="email">
         
           <span class="input-group-text" id=""><i class="fa-solid fa-phone"></i></span>
-          <input type="tel" class="form-control" placeholder="Phone Number" aria-label="" aria-describedby="">
+          <input type="number" class="form-control" placeholder="Phone Number" name="phone" id="phone" aria-label="" aria-describedby="">
         </div>
-
         <div class="input-group mb-3">
           <span class="input-group-text" id=""><i class="fa-regular fa-calendar-days"></i></span>
-          <input type="text" class="form-control" onfocus="(this.type='date')" placeholder="Payment Date"  aria-label="" aria-describedby="">
+          <input type="date" name="date" id="date" class="form-control" onfocus="(this.type='date')" placeholder="Payment Date"  aria-label="" aria-describedby="">
         </div>
-        <!-- <div class="input-group mb-3">
-          <span class="input-group-text" id=""><i class="fa-regular fa-calendar-days"></i></span>
-          <input type="date" class="form-control"  placeholder="Payment Date"  aria-label="" aria-describedby="">
-        </div> -->
+            
+        <div class="col-md-12 mb-2" style="margin-left:40px">
+            <div class="form-outline">
 
-        <div class="btn-group col-12 mb-3" role="" aria-label="">
-          <button type="button" class="btn btn-outline-danger col-6">Debit/Cradit Card</button>
-          <button type="button" class="btn btn-outline-danger col-6">Mobile Banking</button>
-        </div>
-
-        <div class="input-group mb-3 " role="" aria-label="">
+              <select class="form-control" name="transway">
+              
+                <option value="mobile-banking">Mobile Banking</option>
+                <option value="atm">ATM Card</option>
+                
+              </select>
+            </div>
+          </div>
+          <div class="input-group mb-3 " role="" aria-label="">
          <span class="input-group-text" id=""><i class="fa-solid fa-message"></i></span>
-          <input type="tel" class="form-control" placeholder="Transaction ID" aria-label="" aria-describedby="">
+          <input type="tel" class="form-control" name="transid" id="transid"  placeholder="Transaction ID" aria-label="" aria-describedby="">
         </div>
-
-        <div class="btn-group col-12 mb-3" role="" aria-label="">
-          <button type="button" class="btn btn-outline-danger ">Submit</button>
-        </div>
+        
+        <div>
+          <button type="submit" id="submit" name="submit" class="btn btn-success col-12">submit</button>
+          </div>
 
       </form>
     </div>  

@@ -1,3 +1,8 @@
+<?php
+session_start();
+include 'function.php';
+include "connection.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,48 +15,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <title>about</title>
+    <?php require 'head.php' ?>
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light p-3">
-    <div class="container">
-      <a class="navbar-brand" href="index.php">
-        <!-- <i class="fa-brands fa-searchengin"></i> -->
-        Kaj Khuji
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav ms-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.php" style="color: black;">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php" style="color: black;">About</a>
-          </li>
-          
-          <li class="nav-item">
-          
-            <a class="nav-link" href="donation.php" style="color: black;">Donation</a>
-          </li>
-          
-        </ul>
-        <form class="d-flex">
-          <a class="btn btn-success me-2" href="signin.php" >Signin</a>
-          <!-- <a class="btn btn-success" href="signup.php">Signup</a> -->
-          <div class="dropdown">
-  <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-   SignUp
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item " href="">Village People</a></li>
-    <li><a class="dropdown-item" href="">City People</a></li>
-  </ul>
-</div>
-        </form>
-      </div>
-    </div>
-  </nav>
+<body class="b-ground">
 
     <!-- Bannar -->
     <div class="bannar_donation">

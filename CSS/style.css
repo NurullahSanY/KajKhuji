@@ -8,7 +8,7 @@
 
 /* index page */
 .navbar-brand{
-    font-size: 30px;
+    font-size: 50px;
     color: black;
     font-family: 'Lobster', cursive;
     /* font-family: 'Righteous', cursive; */
@@ -16,7 +16,12 @@
     font-weight: bolder;
 }
 .navbar-brand:hover{
-    color: black;
+    color: red;
+}
+.navbar-brand a{
+    font-size: 50px;
+    color: blueviolet;
+    background-color: #3d923c;
 }
 .nav-link{
     margin-right: 10px;
