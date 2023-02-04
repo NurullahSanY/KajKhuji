@@ -12,7 +12,7 @@ include "connection.php";
     <title>index</title>
     <?php include 'head.php'; ?>
 </head>
-<body class="b-ground">
+
 <!-- carousel -->
   <div class="carousel_size">
     <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
