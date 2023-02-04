@@ -98,7 +98,7 @@ else
     <div class="row text-center text-md-left">
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <h5 class="text-uppercase mb-4 font-wight-bold text-warning" >KajKhuji</h5>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime harum reprehenderit esse beatae consequatur, molestias magni numquam accusamus impedit quos.</p>
+        <p>We are a team who set out to find jobs to those who need it. Our intention is to motivate our nation to come forward to help people in need to find a proper job. Our team consists of four members Nurullah, Al-Amin, Miraz and Shuzab.</p>
       </div>
 
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">

@@ -35,7 +35,7 @@
                 <th>Category</th>
                 <th>People</th>
                 <th>Religion</th>
-                <th>NID</th>
+                <!-- <th>NID</th> -->
                 <th>Phone</th>
                 <?php
                 while($find = mysqli_fetch_assoc($query))
@@ -47,7 +47,7 @@
                         <td>$find[category]</td>
                         <td>$find[people]</td>
                         <td>$find[religion]</td>
-                        <td>$find[nid]</td>
+                      
                         <td>$find[phone]</td>
                         </tr>
                     ";
