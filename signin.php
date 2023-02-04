@@ -78,9 +78,9 @@
                 <option value="Fisherman">Fisherman</option>
                 <option value="Farmer">Farmer</option>
                 <option value="Electrician">Electrician</option>
-                <option value="Doctor">Doctor</option>
-                <option value="Teacher">Teacher</option>
-                <option value="Wood-Cutter">Wood-Cutter</option>
+                <!-- <option value="Doctor">Doctor</option> -->
+                <!-- <option value="Teacher">Teacher</option> -->
+                <!-- <option value="Wood-Cutter">Wood-Cutter</option> -->
                 <option value="worker">Worker</option>
               </select>
             </div>

@@ -19,7 +19,7 @@
     </head>
     <body class="b-ground">
         <div class="signin-box">
-            <h2 class="text-uppercase">successful payment</h2>
+            <h2 class="text-uppercase">successfully payment</h2>
             <h2 class="text-uppercase">Received</h2>
             <!-- <h2 class="text-uppercase">!</h2> -->
         </div>
