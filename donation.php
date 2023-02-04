@@ -82,7 +82,7 @@ else
         </div>
         
         <div>
-          <button type="submit" id="submit" name="submit" class="btn btn-success col-12">submit</button>
+          <button type="submit" id="submit" name="submit" class="btn btn-danger col-12">submit</button>
           </div>
 
       </form>

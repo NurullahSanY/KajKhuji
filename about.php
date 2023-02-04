@@ -17,7 +17,7 @@ include "connection.php";
     <title>about</title>
     <?php require 'head.php' ?>
 </head>
-<body class="b-ground">
+<body class="">
 
     <!-- Bannar -->
     <div class="bannar_donation">
@@ -28,11 +28,32 @@ include "connection.php";
     </div>
   </div>
 
+  <div class="container">
+    
+  <div class="about_title_style">
+  <p>We are kajkhuji Team</p>
+  <hr class="horizontal" >
+  </div>
+  <div class="about_text_block">
+  <p>We are a team who set out to find jobs to those who need it. Our intention is to motivate our nation to come forward to help people in need to find a proper job. Our team consists of four members Nurullah, Al-Amin, Miraz and Shuzab. We are trying to make a difference here. We are working very hard to keep this website up and running. This website is an informative website. We have created our website very easy to use. Low-life people can also use it easily. We have created profile system in our website. User can creat and inspect a profile. Our motive is to give information to people who need work. Our goal is to create various fields of work mostly focusing on work related to poor people. We encourage others to join our program in this campaign to provide work to needy people.</p>
+  <div class="about_title_style">
+  <p>Vision</p>
+  <hr class="horizontal" >
+  </div>
+  <div class="about_text_block">
+    <p>Our vision is to spread job opportunities across the country. We provide help in finding a job for that suitable field. Our country is underdeveloped. We are currently focusing on specific area for this website. We have vision to spread this website support across the country. With our website we can provide support to needy people. Poor people who need work but cant find work. We aim to improve our website even more in the future.</p>
+  </div>
 
-  <p>Write here new code</p>
+  <div class="about_title_style">
+  <p>Our Story</p>
+  <hr class="horizontal" >
+  </div>
+  <div class="about_text_block">
+  <p>The story behind our this website was we had a project work for a sessional lab. Then we came up with this project idea and then further improved our website. We had plans to help the poor people in our country. So, we targeted those people for the main users of our website. We separated the work among us. Then we further continued to improved and support the website. Now we aim to improve and expand the our website and carry out our main goal.</p>
+  </div>
 
 
-
+  </div>
 
 
 
