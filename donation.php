@@ -65,17 +65,16 @@ else
           <input type="date" name="date" id="date" class="form-control" onfocus="(this.type='date')" placeholder="Payment Date"  aria-label="" aria-describedby="">
         </div>
             
-        <div class="col-md-12 mb-2" style="margin-left:40px">
+        <div class="col-md-12 mb-2" style="margin-left:0px">
             <div class="form-outline">
-
               <select class="form-control" name="transway">
-              
+                <option value="no value">Select Transaction Type</option>
                 <option value="mobile-banking">Mobile Banking</option>
                 <option value="atm">ATM Card</option>
-                
               </select>
             </div>
           </div>
+
           <div class="input-group mb-3 " role="" aria-label="">
          <span class="input-group-text" id=""><i class="fa-solid fa-message"></i></span>
           <input type="tel" class="form-control" name="transid" id="transid"  placeholder="Transaction ID" aria-label="" aria-describedby="">

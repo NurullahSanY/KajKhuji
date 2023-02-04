@@ -55,7 +55,7 @@ if(!isset($_SESSION['email']))
 
         <!-- /////////// information1///////////// -->
         <div class="row gy-2 gx-3 align-items-center mb-5">
-          <h4 class="text-uppercase">Information1</h4>
+          <h4 class="text-uppercase">Login Information</h4>
           <div class="col-md-4 mb-4">
             <div class="form-outline">
               <label for="form-label">Email</label>
@@ -74,7 +74,7 @@ if(!isset($_SESSION['email']))
 
         <!-- /////////// information2///////////// -->
         <div class="row gy-2 gx-3 align-items-center mb-5">
-          <h4 class="text-uppercase">Information2</h4>
+          <h4 class="text-uppercase">Address</h4>
           <div class="col-md-4 mb-2">
             <div class="form-outline">
               <label for="holdno">Holding/House Number</label>
@@ -113,7 +113,7 @@ if(!isset($_SESSION['email']))
 
         <!-- /////////// information3///////////// -->
         <div class="row gy-2 gx-3 align-items-center mb-5">
-          <h4 class="text-uppercase">Information3</h4>
+          <h4 class="text-uppercase">Category</h4>
           <div class="col-md-4 mb-2">
             <div class="form-outline">
               <label for="category">Category</label>
@@ -143,7 +143,7 @@ if(!isset($_SESSION['email']))
 
         <!-- /////////// information4///////////// -->
         <div class="row gy-2 gx-3 align-items-center mb-5">
-          <h4 class="text-uppercase">Information4</h4>
+          <h4 class="text-uppercase">Personal Information</h4>
           <div class="col-md-4 mb-2">
             <div class="form-outline">
               <label for="text">Name</label>
