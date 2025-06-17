@@ -19,6 +19,6 @@ KajKhuji is a platform designed to help users quickly find affordable and reliab
 - Communication interface for quick coordination between users and farmers  
 - Scheduling and booking system for farm work assignments
 
-##DataBase Connection:
+## DataBase Connection:
 1. create a database named 'mydb'
 2. import mydb.sql file into mydb database.
